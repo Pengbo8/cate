@@ -1,0 +1,13 @@
+.content{font-size: 14px;}
+.content .bigtitle{clear:both;margin-top: 20px;}
+.hint{background: #F5F6F5;padding: 20px;margin-top:10px;width: 530px;}
+.hot{width: 220px;float: left;margin:30px 30px 0 0;}
+.hot span{margin-right: 20px;}
+.hot h2{font-size:14px ;font-weight: 700;color: #909090;}
+.hot ul{margin-top: 20px;}
+.hot ul li{line-height:30px;border-bottom: 1px solid #F3F3F3;position: relative;}
+.hot ul li a{color: #DD3915;}
+.hot ul li a:hover{color: #fff;background: #DD3915;}
+.hot ul li i{background-image: url(../img/index/indexicon.png);display:inline-block;
+width:10px;height:10px;background-position: -20px 0;position: absolute;left: 130px;bottom: 10px;}
+.hot .now li i{background-position: -10px 0;}

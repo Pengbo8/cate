@@ -1,0 +1,35 @@
+.content{font-size: 16px;color: #222;padding: 30px 0;line-height: 1.8;}
+.leftcon{width: 165px;float: left;}
+.leftcon .allclass a{color: #222;line-height: 2.2;}
+.leftcon .allclass a:hover{color: #DD3915;}
+.leftcon .popular-search{margin-top: 50px;}
+.leftcon .popular-search .first-li{color: #909090;font-size: 16px;}
+.leftcon .popular-search a{color: #222;font-size: 14px;line-height: 2;}
+.leftcon .popular-search a:hover{color: #DD3915;}
+
+
+.centercon{width: 495px;float: left;}
+.centercon .kywz{font-size: 14px;text-align: right;}
+.centercon .kywz a{color: #DD3915;}
+.centercon .kywz a:hover{color: #fff;background: #DD3915;}
+.centercon .menublock{width: 495;height: 138px;}
+.centercon .menublock:hover{background: #F5F6F5;}
+.centercon .menublock .menuimg{float: left;width: 106px;height: 106px;border: 1px solid #d3d7d4;;margin: 10px;
+background-color: #fff;padding: 5px;}
+.centercon .menublock .menuimg:hover{opacity: 0.9;}
+.centercon .menublock .title{float:left;padding-left: 15px;margin-top:10px;font-size: 14px;font-weight: bold;}
+.centercon .menublock .title a{font-size: 20px;color: #222;}
+.centercon .menublock .title a:hover{color: #DD3915;}
+.centercon .menublock .title span{display: block;color: #72a46d;margin-right: 15px;}
+.centercon .menublock .title p a{color: #222;font-size: 14px;margin-right: 5px;}
+.centercon .menublock .title p span{color: #909090;display: inline;}
+
+.centercon .pager{margin-top:50px;text-align: center;font-size: 15px;font-weight: 700;}
+.centercon .pager .prev{color: #222;margin: 0 .3em;padding: .2em .5em;}
+.centercon .pager .now{background: #DD3915;color: #fff;margin: 0 .3em;padding: .2em .5em;}
+.centercon .pager a{color: #DD3915;margin: 0 .3em;padding: .2em .5em;}
+.centercon .pager a:hover{background: #DD3915;color: #fff;}
+
+.rightcon{width: 300;float: right;}
+.rightcon .liuxingcaidan .title{margin-top: 0px;}
+.rightcon .erweimaimg{margin-top: 50px;}

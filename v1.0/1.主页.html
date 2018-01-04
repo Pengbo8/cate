@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>美拾-唯爱与美食不可辜负</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	</head>
+	<body>
+		<div class="header"><!--------------头部---------------->
+			<div class="conwidth">
+				<h1 class="fl"><a href="">美<span>拾</span></a></h1>
+				<div class="search fl" id="search-box">
+					<form action="#" method="get" target="_blank" >
+						<input type="text" placeholder="搜索菜谱、食材"
+							id="sreach-input" class="search-text fl"/>
+						<input type="button" value="搜菜谱" class="search-btn fl"/>
+					</form>
+				</div>
+				<div class="nav fr">
+				<ul>
+					<li><a href="">首页</a></li>
+					<li class="menu-class"><a href="#">菜谱分类</a>
+                        <div class="topbar-menu">
+                            <ul class="plain">
+                            <li class='topbar-menu-head'>常用主题</li>
+                            <li><a href="#" >家常菜</a></li>
+                            <li><a href="#" >快手菜</a></li>
+                            <li><a href="#" >下饭菜</a></li>
+                            <li><a href="#" >早餐</a></li>
+                            <li><a href="#" >减肥</a></li>
+                            <li><a href="#" >汤羹</a></li>
+                            <li><a href="#" >烘焙</a></li>
+                            <li><a href="#" >小吃</a></li>
+                            </ul>
+                            <ul class="plain">
+                            <li class='topbar-menu-head'>常见食材</li>
+                            <li><a href="#" >猪肉</a></li>
+                            <li><a href="#" >鸡肉</a></li>
+                            <li><a href="#" >牛肉</a></li>
+                            <li><a href="#" >鱼</a></li>
+                            <li><a href="#" >鸡蛋</a></li>
+                            <li><a href="#" >土豆</a></li>
+                            <li><a href="#" >茄子</a></li>
+                            <li><a href="#" >豆腐</a></li>
+                            </ul>
+                            <ul class="plain">
+                            <li class='topbar-menu-head'>时令食材</li>
+                            <li><a href="#" >春笋</a></li>
+                            <li><a href="#" >笋</a></li>
+                            <li><a href="#" >豌豆</a></li>
+                            <li><a href="#" >草莓</a></li>
+                            <li><a href="#" >金桔</a></li>
+                            <li><a href="#" >菠菜</a></li>
+                            <li><a href="#" >冬笋</a></li>
+                            <li><a href="#" >韭菜</a></li>
+                            </ul>
+                            <hr style="color:#fff;">
+                            <div class="span">
+                            <span><a href="#">查看全部分类</a></span>
+                            </div>
+                        </div>
+                    </li>
+					<li><a href="#">菜单</a></li>
+					<li><a href="#">作品动态</a></li>
+				</ul>
+				<div class="dengluzhuce fr">
+					<a href="">登录</a>
+					<a href="">注册</a>
+				</div>
+				</div>
+			</div>
+            <div class="suggest" id="sreach-suggest"><!---搜索智能提示suggest-->
+                <ul>
+                    <li>搜"  "相关用户</li>
+                    <li>搜"  "相关菜单</li>
+                </ul>
+            </div>
+        </div>
+        <div class="konghang"></div><!--因为头部固定而需要设置高度空行把内容撑下去-->
+
+
+		<div class="content conwidth"><!----------------主体---------------->
+			<div class="conwrap fl">
+				<div class="conone fl"><!--body三分之一的位置-->
+                        <div class="menu">
+                            <ul>
+                            <li class="menu1"><a href="#"><i class="qiantu"></i>家常菜<i class="houtu"></i></a></li>
+                            <li class="menu2"><a href="#"><i class="qiantu"></i>快手菜<i class="houtu"></i></a></li>
+                            <li class="menu3"><a href="#"><i class="qiantu"></i>下饭菜<i class="houtu"></i></a></li>
+                            <li class="menu4"><a href="#"><i class="qiantu"></i>早餐<i class="houtu"></i></a></li>
+                            <li class="menu5"><a href="#"><i class="qiantu"></i>肉<i class="houtu"></i></a>
+                            <div id="submenu">
+                                <div class="submenubox">
+                                    <dl>
+                                        <dt><a href="#">猪肉</a></dt>
+                                        <dd><a href="#">排骨</a><a href="#">五花肉</a><a href="#">里脊</a><a href="#">猪肉末</a><a href="#">瘦肉</a><a href="#">猪蹄</a><a href="#">猪肝</a><a href="#">更多</a></dd>
+                                    </dl><hr style="width:85%;opacity: 0.3;color: #CCCCCC;">
+                                    <dl>
+                                        <dt><a href="#">鸡</a></dt>
+                                        <dd><a href="#">鸡腿</a><a href="#">鸡翅</a><a href="#">鸡肉</a><a href="#">鸡爪</a><a href="#">土鸡</a><a href="#">三黄鸡</a><a href="#">鸡胗</a><a href="#">更多</a></dd>
+                                    </dl><hr style="width:85%;opacity: 0.3;color: #CCCCCC;">
+                                    <dl>
+                                        <dt><a href="#">牛肉</a></dt>
+                                        <dd><a href="#">牛腩</a><a href="#">肥牛</a><a href="#">牛排</a><a href="#">牛肉末</a><a href="#">牛瘦肉</a><a href="#">牛尾</a><a href="#">牛筋</a><a href="#">更多</a></dd>
+                                    </dl><hr style="width:85%;opacity: 0.3;color: #CCCCCC;">
+                                    <dl>
+                                        <dt><a href="#">鸭</a></dt>
+                                        <dd><a href="#">鸭腿</a><a href="#">鸭翅</a><a href="#">鸭胗</a><a href="#">鸭掌</a><a href="#">老鸭</a><a href="#">鸭脖</a><a href="#">鸭舌</a><a href="#">更多</a></dd>
+                                    </dl><hr style="width:85%;opacity: 0.3;color: #CCCCCC;">
+                                    <dl>
+                                        <dt><a href="#">羊肉</a></dt>
+                                        <dd><a href="#">羊腿</a><a href="#">羊肉片</a><a href="#">羊排</a><a href="#">羊蝎子</a><a href="#">更多</a></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            </li>
+                            <li class="menu6"><a href="#"><i class="qiantu"></i>鱼<i class="houtu"></i></a></li>
+                            <li class="menu7"><a href="#"><i class="qiantu"></i>蔬菜<i class="houtu"></i></a>
+                            <div id="submenu">
+                                <div class="submenubox">
+                                    <dl>
+                                        <dt><a href="#">果实类蔬菜</a></dt>
+                                        <dd><a href="#">茄子</a><a href="#">番茄</a><a href="#">玉米</a><a href="#">南瓜</a><a href="#">丝瓜</a><a href="#">冬瓜</a><a href="#">豆角</a><a href="#">更多</a></dd>
+                                    </dl><hr style="width:85%;opacity: 0.3;color: #CCCCCC;">
+                                    <dl>
+                                        <dt><a href="#">根茎蔬菜</a></dt>
+                                        <dd><a href="#">土豆</a><a href="#">萝卜</a><a href="#">藕</a><a href="#">红薯</a><a href="#">山药</a><a href="#">芋头</a><a href="#">笋</a><a href="#">更多</a></dd>
+                                    </dl><hr style="width:85%;opacity: 0.3;color: #CCCCCC;">
+                                    <dl>
+                                        <dt><a href="#">菌菇类</a></dt>
+                                        <dd><a href="#">香菇</a><a href="#">杏鲍菇</a><a href="#">金针菇</a><a href="#">木耳</a><a href="#">茶树菇</a><a href="#">猴头菇</a><a href="#">平菇</a><a href="#">更多</a></dd>
+                                    </dl><hr style="width:85%;opacity: 0.3;color: #CCCCCC;">
+                                    <dl>
+                                        <dt><a href="#">叶类蔬菜</a></dt>
+                                        <dd><a href="#">韭菜</a><a href="#">菠菜</a><a href="#">圆白菜</a><a href="#">油菜</a><a href="#">娃娃菜</a><a href="#">空心菜</a><a href="#">油麦菜</a><a href="#">更多</a></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            </li>
+                            <li class="menu8"><a href="#"><i class="qiantu"></i>鸡蛋<i class="houtu"></i></a></li>
+                            <li class="menu9"><a href="#"><i class="qiantu"></i>汤羹<i class="houtu"></i></a></li>
+                            <li class="menu10"><a href="#"><i class="qiantu"></i>烘焙<i class="houtu"></i></a></li>
+                            <li class="menu11"><a href="#"><i class="qiantu"></i>松下烘焙<i class="houtu"></i></a>
+                            <div id="submenu">
+                                <div class="submenubox submenubox1">
+                                    <dl>
+                                        <dt><a href="#">松下烘焙魔法世界</a></dt>
+                                        <dd><a href="#">蒸烤箱</a><a href="#">面包机</a><a href="#">电烤箱</a><a href="#">电饭煲</a><a href="#">电压力锅</a><a href="#">更多</a></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            </li>
+                            <li class="menu12"><a href="#"><i class="qiantu"></i>主食<i class="houtu"></i></a></li>
+                            <li class="menu13"><a href="#"><i class="qiantu"></i>面<i class="houtu"></i></a></li>
+                            <li class="menu14"><a href="#"><i class="qiantu"></i>素食<i class="houtu"></i></a></li>
+                            <hr style="width: 120px;opacity: 0.2;color: #CCCCCC;">
+                            <li class="menu15"><a href="#"><i class="qiantu"></i>孕妇<i class="houtu"></i></a></li>
+                            <li class="menu16"><a href="#"><i class="qiantu"></i>产妇<i class="houtu"></i></a></li>
+                            <li class="menu17"><a href="#"><i class="qiantu"></i>婴儿<i class="houtu"></i></a></li>
+                            <li class="menu18"><a href="#"><i class="qiantu"></i>儿童<i class="houtu"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="erweima fl">
+							<p><a href="#" >全部菜谱分类</a></p>
+							<a href="#"><img src="img/index/erweima.png" /></a>
+						</div>
+						<div class="shizhong">
+							<canvas id="clock" height="120px" width="120px"></canvas>
+						</div>
+						<script src="js/clock.js" type="text/javascript" charset="utf-8"></script>
+				</div>
+
+				<div class="contwo fl"><!--body三分之二的位置-->
+                    <div class="banner" id="b03">
+                        <ul>
+                            <li><img src="img/index/haibao/4.jpg" alt="" width="490" height="260" ></li>
+                            <li><img src="img/index/haibao/1.jpg" alt="" width="490" height="260" ></li>
+                            <li><img src="img/index/haibao/2.jpg" alt="" width="490" height="260" ></li>
+                            <li><img src="img/index/haibao/3.jpg" alt="" width="490" height="260" ></li>
+                            <li><img src="img/index/haibao/5.jpg" alt="" width="490" height="260" ></li>
+                        </ul>
+                    </div>
+                    <div class="xinxiucaipu">
+                    	<div class="title"><h2 class="fubiaoti">新秀菜谱</h2><a href="#" class="quanbu">全部</a></div>
+                            <div class="caipu">
+                                <img src="img/index/xinxiucaipu/17a1a732893311e6a9a10242ac110002_1037w_1037h.jpg"/>
+                                <a href="#">椰蓉紫薯大福</a>
+                            </div>
+                            <div class="caipu caipu2">
+                                <img src="img/index/xinxiucaipu/321db3bcdab911e6bc9d0242ac110002_1104w_1280h.jpg"/>
+                                <a href="#">木瓜炖雪蛤</a>
+                            </div>
+                            <div class="caipu">
+                                <img src="img/index/xinxiucaipu/c9e98b38888611e6b87c0242ac110003_640w_478h.jpg"/>
+                                <a href="#">清明稞</a>
+                            </div>
+                    </div>
+                    <div class="zuijinliuxing">
+                        <div class="title"><h2 class="fubiaoti">最近流行</h2><a href="#" class="quanbu">全部</a></div>
+                            <div class="liuxing liuxing1">
+                                <img src="img/index/zuijinliuxing/262bb5188a4611e6a9a10242ac110002_5173w_3449h.jpg" />
+                                <div class="name"><a href="#" class="a">超厚的三明治~</a></div>
+                                <div class="xz"><span>阿妹</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>1857 做过</span></div>
+                            </div>
+                            <div class="liuxing liuxing2 liuxing1">
+                                <img src="img/index/zuijinliuxing/2dfa512287e511e6a9a10242ac110002_1037w_691h.jpg"/>
+                                <div class="name"><a href="#" class="a">最好吃的扬州狮子头</a></div>
+                                <div class="xz"><span>阿妹</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>1857 做过</span></div>
+                            </div>
+                            <div class="liuxing">
+                                <img src="img/index/zuijinliuxing/a5071fd8cf1211e6bc9d0242ac110002_1224w_1632h.jpg"/>
+                                <div class="name"><a href="#" class="a">凉拌芹菜胡萝卜丁</a></div>
+                                <div class="xz"><span>阿妹</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>1857 做过</span></div>
+                            </div>
+                            <div class="liuxing  liuxing2">
+                                <img src="img/index/zuijinliuxing/d3d728a8886311e6b87c0242ac110003_500w_366h.jpg"/>
+                                <div class="name"><a href="#" class="a">直接发酵法的白胖包几</a></div>
+                                <div class="xz"><span>阿妹</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>1857 做过</span></div>
+                            </div>
+                            <div class="liuxing">
+                                <img src="img/index/zuijinliuxing/d179255487e911e6b87c0242ac110003_1104w_622h.jpg"/>
+                                <div class="name"><a href="#" class="a">终极烹饪教程【北非蛋】</a></div>
+                                <div class="xz"><span>阿妹</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>1857 做过</span></div>
+                            </div>
+                            <div class="liuxing liuxing2">
+                                <img src="img/index/zuijinliuxing/aaf046b0fa9411e6bc9d0242ac110002_1280w_961h.jpg"/>
+                                <div class="name"><a href="#" class="a">洋葱酱肉丁包子</a></div>
+                                <div class="xz"><span>阿妹</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>1857 做过</span></div>
+                            </div>
+                    </div>
+                    <div class="chufangwenda">
+                        <div class="title"><h2 class="fubiaoti">厨房问答</h2><a href="#" class="quanbu">全部</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="#" class="quanbu">发起话题</a></div>
+                            <div class="wenda">
+                                <a href="#">为什么用面包机揉面不出膜？</a><span>10&nbsp;参与</span><br />
+                                <a href="#">为什么面团会坑坑洼洼的？</a><span>7&nbsp;参与</span><br />
+                                <a href="#">豆芽怎么做好吃？</a><span>9&nbsp;参与</span><br />
+                                <a href="#">糯米粉结块了怎么办？</a><span>20&nbsp;参与</span><br />
+                                <a href="#">新鲜柠檬汁没用完怎么处理？</a><span>14&nbsp;参与</span><br />
+                            </div>
+                    </div>
+                    <div class="shilingshicai">
+                    <div class="title"><h2 class="fubiaoti">时令食材</h2><a href="#" class="quanbu">全部</a></div>
+                    <div class="shicai">
+                        <div class="shicaiimg">
+                            <a href="#"><img src="img/index/shicai/0903bd727c9211e5922bb82a72e00100.jpg"/></a>
+                            <a href="#"><span>豌豆</span></a>
+                        </div>
+                        <div class="shicaiimg">
+                            <a href="#"><img src="img/index/shicai/0a54bc807c9211e584ca9dc38687f4d3.jpg"/></a>
+                            <a href="#"><span>耗菜</span></a>
+                        </div>
+                        <div class="shicaiimg">
+                            <a href="#"><img src="img/index/shicai/100f86977c9211e5a29ea9bfb5aebcdb.jpg"/></a>
+                            <a href="#"><span>草莓</span></a>
+                        </div>
+                        <div class="shicaiimg">
+                            <a href="#"><img src="img/index/shicai/15ae11427c9211e5aaa89dc38687f4d3.jpg"/></a>
+                            <a href="#"><span>春笋</span></a>
+                        </div>
+                        <div class="shicaiimg">
+                            <a href="#"><img src="img/index/shicai/1b1fd2007c9211e5bdeb1975b1121eae.jpg"/></a>
+                            <a href="#"><span>荷兰豆</span></a>
+                        </div>
+                        <div class="shicaiimg">
+                            <a href="#"><img src="img/index/shicai/1e92dc707c9211e5949a9dc38687f4d3.jpg"/></a>
+                            <a href="#"><span>金针菇</span></a>
+                        </div>
+                        <div class="shicaiimg">
+                            <a href="#"><img src="img/index/shicai/59869d967c9211e5b66ab82a72e00100.jpg"/></a>
+                            <a href="#"><span>青豆</span></a>
+                        </div>
+                        <div class="shicaiimg">
+                            <a href="#"><img src="img/index/shicai/e4c643bc7c9111e5922bb82a72e00100.jpg"/></a>
+                            <a href="#"><span>鲍鱼</span></a>
+                        </div>
+                        <div class="shicaiimg">
+                            <a href="#"><img src="img/index/shicai/eec1fa3a7c9111e5aaa9a9bfb5aebcdb.jpg"/></a>
+                            <a href="#"><span>菠菜</span></a>
+                        </div>
+                        <div class="shicaiimg">
+                            <a href="#"><img src="img/index/shicai/f2db3dae7c9111e5a62d9dc38687f4d3.jpg"/></a>
+                            <a href="#"><span>甘蓝</span></a>
+                        </div>
+                        <div class="shicaiimg">
+                            <a href="#"><img src="img/index/shicai/f9f3a8eb7c9111e58580a9bfb5aebcdb.jpg"/></a>
+                            <a href="#"><span>金桔</span></a>
+                        </div>
+                        <div class="shicaiimg">
+                            <a href="#"><img src="img/index/shicai/fa83bcde7c9111e5afe4a9bfb5aebcdb.jpg"/></a>
+                            <a href="#"><span>笋</span></a>
+                        </div>
+                    </div>
+                	</div>
+				</div>
+			</div>
+
+			<div class="conthree fr"><!--body三分之三的位置-->
+				<div class="denglu">
+                    <a href="#" class="dengluimg"><img src="img/index/denglu1.png" / ></a><br />
+                    <a href="#" class="dengluimg2"><img src="img/index/denglu2.png"/></a><br />
+                    <div class="dengluwz">
+                        <a href="#" class="wz">手机/邮箱登录</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                        <a href="#" class="wz">注册</a>
+                    </div>
+				</div>
+
+				<div class="zuixingonggao">
+					<div class="title"><h2 class="fubiaoti">最新公告</h2><a href="#" class="quanbu">全部</a>
+                     <div id="gonggaobox">
+                         <ul id="gonggao1">
+                             <li><a href="4.美食排行榜.html">2017年世界美食排行榜</a><span>2017-4-16</span></li>
+                             <li><a href="8.美拾2016手机贺卡.html">美拾网2016新年手机贺卡</a><span>2017-4-15</span></li>
+                             <li><a href="美食排行榜.html">2017年世界美食排行榜3</a><span>2017-4-15</span></li>
+                             <li><a href="美食排行榜.html">2017年世界美食排行榜4</a><span>2017-4-13</span></li>
+                             <li><a href="美食排行榜.html">2017年世界美食排行榜5</a><span>2017-4-13</span></li>
+                             <li><a href="美食排行榜.html">2017年世界美食排行榜6</a><span>2017-4-13</span></li>
+                             <li><a href="美食排行榜.html">2017年世界美食排行榜7</a><span>2017-4-11</span></li>
+                             <li><a href="美食排行榜.html">2017年世界美食排行榜8</a><span>2017-4-10</span></li>
+                         </ul>
+                         <ul id="gonggao2">
+                         </ul>
+                     </div>
+                    </div>
+				</div>
+
+
+                <div class="liuxingcaidan">
+                    <div class="title"><h2 class="fubiaoti">流行菜单</h2><a href="#" class="quanbu">全部</a></div>
+                    <ul>
+                        <li><a href="#">1000个减肥餐</a></li>
+                        <li><a href="#">没有素菜我可能会死掉～</a></li>
+                        <li><a href="#">上学娃的快手营养早餐</a></li>
+                        <li><a href="#">丨･ω･｡)ﾉ手撕面包</a></li>
+                        <li><a href="#">一片吐司太单调。</a></li>
+                        <li><a href="#">高分土豆方子，可以吃到天荒地老</a></li>
+                        <li><a href="#">寒假回去要做的╰(￣▽￣)╮⑦入门西餐</a></li>
+                        <li><a href="#">烘焙♥酱酱系列</a></li>
+                        <li><a href="#">中点</a></li>
+                    </ul>
+                </div>
+				<div class="liuxingsousuo">
+                    <div class="title"><h2 class="fubiaoti">流行搜索</h2></div>
+                    <ol>
+                    	<li><a href="#"><span>1</span>&nbsp;&nbsp;茄子</a></li>
+                    	<li class="teshu"><a href="#"><span>2</span>&nbsp;&nbsp;家常菜</a></li>
+                    	<li><a href="#"><span>3</span>&nbsp;&nbsp;香葱炒蛋</a></li>
+                    	<li class="teshu"><a href="#"><span>4</span>&nbsp;&nbsp;单身食谱</a></li>
+                    	<li><a href="#"><span>5</span>&nbsp;&nbsp;豆腐</a></li>
+                    	<li class="teshu"><a href="#"><span>6</span>&nbsp;&nbsp;烘焙</a></li>
+                    	<li><a href="#"><span>7</span>&nbsp;&nbsp;下饭菜</a></li>
+                    	<li class="teshu"><a href="#"><span>8</span>&nbsp;&nbsp;香椿</a></li>
+                    	<li><a href="#"><span>9</span>&nbsp;&nbsp;笋</a></li>
+                    	<li class="teshu"><a href="#"><span>10</span>&nbsp;&nbsp;菠菜</a></li>
+                    </ol>
+				</div>
+
+				<div class="haoyou">
+                    <div class="title"><h2 class="fubiaoti">下厨房的厨友们</h2><a href="#" class="quanbu">更多</a></div>
+                    <a href="#"><img src="img/index/userhead/05a66ff0141f11e7947d0242ac110002_160w_160h.jpg"/></a>
+                    <h6>秦了了</h6><br><span>771关注</span><br><span>2个菜谱&nbsp;&nbsp;178个作品</span>
+                    <a href="#"><div class="guanzhu">关注</div></a><br><hr style="color: #fcfcfc;opacity:0.2"/>
+
+                    <a href="#"><img src="img/index/userhead/0d5433a8da1d11e594b47324705038fd.jpg"/></a>
+                    <h6>陆夫人</h6><br><span>752关注</span><br><span>9个菜谱&nbsp;&nbsp;166个作品</span>
+                    <a href="#"><div class="guanzhu">关注</div></a><br><hr style="color: #fcfcfc;opacity:0.2"/>
+
+                    <a href="#"><img src="img/index/userhead/74a8adc5082411e689624994808e9505.jpg"/></a>
+                    <h6>初夏</h6><br><span>684关注</span><br><span>77个菜谱&nbsp;&nbsp;89个作品</span>
+                    <a href="#"><div class="guanzhu">关注</div></a><br><hr style="color: #fcfcfc;opacity:0.2"/>
+
+                    <a href="#"><img src="img/index/userhead/b722d6acfb5a11e6947d0242ac110002_1080w_1080h.jpg"/></a>
+                    <h6>papi酱</h6><br><span>655关注</span><br><span>4个菜谱&nbsp;&nbsp;53个作品</span>
+                    <a href="#"><div class="guanzhu">关注</div></a><br><hr style="color: #fcfcfc;opacity:0.2"/>
+
+                    <a href="#"><img src="img/index/userhead/c32940c7865311e583923ff46642ec00.jpg"/></a>
+                    <h6>007-qiqi</h6><br><span>620关注</span><br><span>6个菜谱&nbsp;&nbsp;74个作品</span>
+                    <a href="#"><div class="guanzhu">关注</div></a><br><hr style="color: #fcfcfc;opacity:0.2"/>
+
+                    <a href="#"><img src="img/index/userhead/bc72523a8dd811e6b87c0242ac110003_720w_720h.jpg"/></a>
+                    <h6>皓月当空</h6><br><span>400关注</span><br><span>6个菜谱&nbsp;&nbsp;78个作品</span>
+                    <a href="#"><div class="guanzhu">关注</div></a><br><hr style="color: #fcfcfc;opacity:0.2"/>
+
+                    <a href="#"><img src="img/index/userhead/23eb09780a1d11e7947d0242ac110002_720w_720h.jpg"/></a>
+                    <h6>知了</h6><br><span>205关注</span><br><span>5个菜谱&nbsp;&nbsp;28个作品</span>
+                    <a href="#"><div class="guanzhu">关注</div></a><br><hr style="color: #fcfcfc;opacity:0.2"/>
+				</div>
+			</div>
+		</div>
+
+  	<div class="conwidth"><!----------------页脚---------------->
+  		<div class="footer">
+			<ul>
+				<li><a href="#">美食生活杂志</a></li>
+				<li><a href="#">厨房工作</a></li>
+				<li><a href="#">社区指导原则</a></li>
+				<li><a href="#">美拾出版的书</a></li>
+				<li><a href="#">帮助中心</a></li>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#">意见反馈</a></li>
+				<li><a href="#">隐私声明</a></li>
+			</ul><br />
+			<p>彭晓芬制作，仿下厨房网站，不用于商业用途</p>
+		</div>
+  	</div>
+
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/clock.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

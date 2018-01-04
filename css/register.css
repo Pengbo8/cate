@@ -1,0 +1,13 @@
+
+    .dengluzhuce span{font-size:15px;}
+    .dengluzhuce a{color: #DD3915;}
+    .content{width: 310px;margin: 75px auto;font-size: 13px;line-height: 35px;  }
+    .content h1{font-size: 34px;text-align: center;}
+    form{padding-top: 30px;}
+    form div{margin-top:10px;}
+    form .bb{border: 1px solid #f3f3f3;padding: .5em;}
+    form .cc{border: 1px solid #f3f3f3;letter-spacing: 1px;padding: .5em;}
+    form .dd{border: 1px solid #f3f3f3;letter-spacing: 1px;padding: .5em;width:280px;}
+    form .ee{color: #fff;background-color: #dd3915;width:130px;height:30px;text-align:center;border:0;cursor:pointer;}
+    form .ff{border: 1px solid #f3f3f3;letter-spacing: 1px;padding: .5em;}
+    form .gg{color: #fff;background-color: #dd3915;text-align:center;width:80px;padding: .5em;border:0;cursor:pointer;}
