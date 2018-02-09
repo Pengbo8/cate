@@ -4,7 +4,7 @@ HTML\CSS\JAVASCRIPT项目<br>
 有很多bug，时间有点久了大概是没心情补了。<br>
 2017.8.1<br>
 
-首页：https://chasen8.github.io/cate/<br>
+[首页](https://chasen8.github.io/cate/)<br>
 登录：https://chasen8.github.io/cate/login.html<br>
 注册：https://chasen8.github.io/cate/register%20.html<br>
 菜单：https://chasen8.github.io/cate/popular_menu.html<br>
