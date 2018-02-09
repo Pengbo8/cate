@@ -1,5 +1,4 @@
-<h1># cate<h1>
-<h1>仿下厨房网站<h1><br>
+# cate &nbsp; 仿下厨房网站<br>
 HTML\CSS\JAVASCRIPT项目<br>
 第一个练习项目<br>
 有很多bug，时间有点久了大概是没心情补了。<br>
