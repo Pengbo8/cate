@@ -1,8 +1,8 @@
-# cate
-仿下厨房网站<br>
+<h1># cate<h1>
+<h1>仿下厨房网站<h1><br>
 HTML\CSS\JAVASCRIPT项目<br>
 第一个练习项目<br>
-有很多bug，时间有点久了大概是没心情补了。
+有很多bug，时间有点久了大概是没心情补了。<br>
 2017.8.1<br>
 
 首页：https://chasen8.github.io/cate/<br>
