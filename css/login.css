@@ -1,0 +1,35 @@
+/*
+* @Author: Pearl8
+* @Date:   2018-02-09 21:28:59
+* @Last Modified by:   Pearl8
+* @Last Modified time: 2018-02-09 21:30:45
+*/
+    body{line-height: 1.8;}
+    .dengluzhuce span{font-size:15px;}
+    .dengluzhuce a{color: #DD3915;}
+    .content h1{font-size: 34px;text-align: center;}
+    .content{width: 1000px;margin: 75px auto;font-size: 15px;}
+
+    .kuaijie{margin:60px 0 0 100px;float: left;}
+    .kuaijie .x{margin-bottom: 15px !important;
+    background: url('../img/dengluzhuce/icon1.png') no-repeat;width: 194px;height: 40px;display: block;}
+    .kuaijie .a{background-position: 0 0;}
+    .kuaijie .b{background-position: 0 -55px;}
+    .kuaijie .c{background-position: 0 -110px;}
+    .kuaijie .a:hover{background-position: -220px 0;}
+    .kuaijie .b:hover{background-position: -220px -55px;}
+    .kuaijie .c:hover{background-position: -220px -110px;}
+
+    form div{margin-bottom: 20px;}
+    form {display:block;width: 380px;height: auto;margin: 60px 0 0 400px;}
+    form .aa{border: 1px solid #f3f3f3;padding: 1em;}
+    form .bb{border: 1px solid #f3f3f3;letter-spacing: 1px;padding: 1em;}
+    form .cc{width: 130px;height: 46px;background: #c6c1b8;color: #fff;border: 0;cursor:pointer;}
+    form .dd{border: 1px solid #f3f3f3;padding: 1em;}
+    form .ee{font-size: 12px;color:#909090;}
+    form .ff{color: #fff;background-color: #dd3915;text-align:center;width:80px;padding: .5em;border:0;cursor:pointer;}
+    form .wz a{font-size: 12px;color: #dd3915;display:inline-block;float: right;}
+
+    form .wz a:hover{color: #fff;background-color: #dd3915;}
+
+    .slider{display: inline-block;background: url('../img/dengluzhuce/icon2.png');}
