@@ -1,8 +1,8 @@
 # 仿下厨房网站<br>
 ## HTML\CSS\JAVASCRIPT项目<br>
 前端第一个练习项目，主要是练习HTML和CSS，中间JavaScript也不太会写，轮播图是网上找的插件。<br>
-陆陆续续写了一个月，有bug，时间有点久了大概是没心情补了。<br>
-2017.8.1<br>
+2017年8月到9月放暑假陆陆续续写了一个月，有bug，时间有点久了大概是没心情补了。<br>
+
 
 👉[首页](https://chasen8.github.io/cate/)<br>
 👉[登录](https://chasen8.github.io/cate/login.html)<br>
