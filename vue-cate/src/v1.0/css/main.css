@@ -18,7 +18,7 @@ body img:hover{opacity:0.8;cursor:pointer;} /*设置所有img图片划过时透�
 .kh20{height: 20px;} /* 没有//这种注释写法,所有这种写法后紧随的css都会失效.*/
 .kh30{height: 30px;}
 .kh40{height: 40px;}
-.kh50{height: :50px;}
+.kh50{height: 50px;}
 
 .fl{ float: left; }
 .fr{ float: right; }
@@ -161,7 +161,7 @@ body img:hover{opacity:0.8;cursor:pointer;} /*设置所有img图片划过时透�
 .wenda span{ float: right; color: #999; font-size: 13px; }
 /*时令食材*/
 .shilingshicai{ width: 490px; }
-.shicai{ width: 490; height:230px; background: #f5f6f5; }
+.shicai{ width: 490px; height:230px; background: #f5f6f5; }
 .shicaiimg{ width: 60px; padding-left: 18.57px; float: left; padding-top: 25px; }
 .shicaiimg a{color:#000;cursor: pointer;display: block; text-align: center;}
 .shicaiimg a:hover{color:#dd3915;}
@@ -192,10 +192,10 @@ body img:hover{opacity:0.8;cursor:pointer;} /*设置所有img图片划过时透�
 .liuxingsousuo ol li span{ color: #909090; }
 .liuxingsousuo ol li i{background:url(../img/index/indexicon.png);display:inline-block;
 width:10px;height:10px;background-position: 0px 0;position:absolute;left:100px;top:13px;}
-.liuxingsousuo .closeright{ margin: -35px 0px 0px 170px; }//上一行有需要再另行设置背景
+.liuxingsousuo .closeright{ margin: -35px 0px 0px 170px; }/*//上一行有需要再另行设置背景*/
 /* 时令食材 */
 .shilingshicai{ width: 490px; }
-.shicai{ width: 490; height:230px; background: #f5f6f5; }
+.shicai{ width: 490px; height:230px; background: #f5f6f5; }
 .shicaiimg{ width: 60px; padding-left: 18.57px; float: left; padding-top: 25px; }
 .shicaiimg a{color:#000;cursor: pointer;display: block; text-align: center;}
 .shicaiimg a:hover{color:#dd3915;opacity:0.8;}
